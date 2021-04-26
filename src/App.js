@@ -9,6 +9,8 @@ import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from './pages/checkout/checkout.component';
+import WishListPage from './pages/wishlist/wishList.component';
+
 
 import Header from './components/header/header.component';
 
@@ -29,6 +31,7 @@ const App = ({ checkUserSession, currentUser }) => {
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
+          <Route exact path='/wishlist' component={WishListPage} />
           <Route
             exact
             path='/signin'

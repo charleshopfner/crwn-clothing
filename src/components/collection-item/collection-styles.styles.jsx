@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import CustomButton from '../custom-button/custom-button.component';
+import styled from "styled-components";
+import CustomButton from "../custom-button/custom-button.component";
 
 export const CollectionItemContainer = styled.div`
   width: 22vw;
@@ -17,6 +17,10 @@ export const CollectionItemContainer = styled.div`
     button {
       opacity: 0.85;
       display: flex;
+    }
+
+    div {
+      opacity: 1;
     }
   }
 `;
@@ -54,4 +58,17 @@ export const NameContainer = styled.span`
 export const PriceContainer = styled.span`
   width: 10%;
   text-align: right;
+`;
+
+export const FavouriteIconContainer = styled.button`
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+  cursor: pointer;
 `;

@@ -1,0 +1,7 @@
+const wishListActionTypes = {
+  ADD_ITEM_TO_WISHLIST: "ADD_ITEM_TO_WISHLIST",
+  CLEAR_ITEM_FROM_WISHLIST: "CLEAR_ITEM_FROM_WISHLIST",
+  CLEAR_WISHLIST: "CLEAR_WISHLIST",
+};
+
+export default wishListActionTypes;
